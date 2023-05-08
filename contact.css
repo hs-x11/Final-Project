@@ -1,8 +1,7 @@
 body {
     margin: 0;
     background-color: #ffffff;
-    font-family: 'Tajawal', sans-serif;
-    border: 2px solid #E1B941;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .nav-container {
@@ -52,17 +51,31 @@ footer {
   }
 
   .contact-header {
-    margin-right: 5%;
-    margin-left: 5%;
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 15%;
     }
     
 h1 {
     text-align: center;
+    color: black;
 }
-    
+
+h2 {
+    color: white;
+}
+
+h4 {
+    color: #4169e1;
+}
+
+.info {
+    color: black;
+}
+
 .contact-container {
     display: flex;
-    overflow: scroll;
+    justify-content: center;
     margin-right: 3%;
     margin-left: 3%;
     height: 100%;
@@ -78,16 +91,15 @@ h1 {
     background-color: #b4bedc;
     flex-basis: 40%;
     padding: 2%;
-
 }
     
-.left > form  > input,textarea {
+form  > input,textarea {
+    font-family: 'Nunito Sans', sans-serif;
     width: 100%;
     padding: 2%;
     border: none;
     outline: none;
     margin-bottom: 10px;
-    font-family: 'Tajawal', sans-serif;
     font-size: 15px;
     border-radius: 6px;
 }
@@ -95,6 +107,10 @@ h1 {
 textarea {
     resize: none;
     height: 40%;
+}
+
+form  > input:hover,textarea:hover {
+    cursor: pointer;
 }
 
 button {
@@ -105,7 +121,7 @@ button {
     border: none;
     outline: none;
     margin-left: 35%;
-    
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 button:hover {
