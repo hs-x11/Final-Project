@@ -1,7 +1,8 @@
 body {
     margin: 0;
-    background-color: #A3EBB1;
+    background-color: #ffffff;
     font-family: 'Tajawal', sans-serif;
+    border: 2px solid #E1B941;
 }
 
 .nav-container {
@@ -10,7 +11,7 @@ body {
     align-items: center;
     height: 8%;
     width: 100%;
-    background-color: #d1ffe6;
+    background-color: #4169e1;
 }
 
 .logo {
@@ -25,20 +26,89 @@ body {
 }
 
 .nav-links > li {
+    
     display: inline-block;
     padding: 0 5;
 }
 
 .nav-links > li > a {
     text-decoration: none;
-    color: rgb(0, 9, 6);
+    color: rgb(251, 251, 251);
 }
 
 .nav-links > li > a:hover {
-    color: #18A558;
+    color: #E1B941;
 }
 
 .nav-links > li > a.active {
-    color: #18A558;
+    color: #E1B941;
 }
 
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #4169e1;
+    color: white;
+  }
+
+  .contact-header {
+    margin-right: 5%;
+    margin-left: 5%;
+    }
+    
+h1 {
+    text-align: center;
+}
+    
+.contact-container {
+    display: flex;
+    overflow: scroll;
+    margin-right: 3%;
+    margin-left: 3%;
+    height: 100%;
+}
+    
+.left {
+    background-color: #4169e1;
+    flex-basis: 60%;
+    padding: 2%;
+}
+    
+.right {
+    background-color: #b4bedc;
+    flex-basis: 40%;
+    padding: 2%;
+
+}
+    
+.left > form  > input,textarea {
+    width: 100%;
+    padding: 2%;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+textarea {
+    resize: none;
+    height: 40%;
+}
+
+button {
+    background: #E1B941;
+    border-radius: 6px;
+    width: 30%;
+    height: 10%;
+    border: none;
+    outline: none;
+    margin-left: 35%;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    background: #d4ae3d;
+}
