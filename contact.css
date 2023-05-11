@@ -1,12 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: #ffffff;
 }
 
-  .contact-header {
+.contact-header {
     text-align: center;
     margin-right: 15%;
     margin-left: 15%;
-    }
+}
     
 h1 {
     text-align: center;
@@ -31,6 +35,8 @@ h4 {
     margin-right: 3%;
     margin-left: 3%;
     height: 100%;
+    min-height: 300px;
+    min-width: auto;
 }
     
 .left {
@@ -75,4 +81,8 @@ button {
 button:hover {
     cursor: pointer;
     background: #d4ae3d;
+}
+
+.credits {
+    font-size: 10px;
 }

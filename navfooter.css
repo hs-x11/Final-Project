@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500&display=swap');
 
-body {
+* {
     margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -12,6 +16,8 @@ body {
     height: 8%;
     width: 100%;
     background-color: #4169e1;
+    min-height: 32px;
+    min-width: auto;
 }
 
 .logo {
@@ -23,10 +29,10 @@ body {
 .nav-links {
     list-style: none;
     padding-right: 20px;
+    font-size: 14px;
 }
 
 .nav-links > li {
-    
     display: inline-block;
     padding: 0 5;
 }
@@ -46,6 +52,7 @@ body {
 
 footer {
     text-align: center;
+    font-size: 15px;
     padding: 3px;
     background-color: #4169e1;
     color: white;
