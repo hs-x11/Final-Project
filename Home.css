@@ -1,0 +1,180 @@
+/*
+resource notes
+pallete: #4169E1 #E1B941
+*/
+
+body {background-color:whitesmoke;
+    font-family: 'Nunito Sans', sans-serif;}
+
+
+
+
+/*all content is set for a 1080p screen, see about making proper adjustments for readability/scalability */
+.welcome-text{
+    position: relative;
+    text-align: center;
+    
+}
+    .line1{
+        position: absolute;
+        top:40%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 72px;
+        z-index:2; }
+
+    .line2{
+        position: absolute;
+        top:47%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 48px;
+        z-index:2; }
+    
+    .line3{
+            position: absolute;
+            top:54%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 48px;
+            z-index:2;}
+
+    .Button1{
+            background-color: #4169e1;
+            border: 2px solid #4169e1;
+            color: #E1B941;
+            padding: 15px 32px;
+            text-align: center;
+            display: inline-block;
+            font-size: 22px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition-duration: .6s;
+            position: absolute;
+            top:62%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            z-index:2;
+            
+                    }
+    .Button1:hover {background-color:transparent;color:#E1B941; border: 2px solid #E1B941}
+    /*alternative color scheme
+    .Button1{
+        background-color: #E1B941;
+        border: 2px solid #E1B941;
+        color: #4169e1;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 22px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        transition-duration: .6s;
+        position: absolute;
+        top:62%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        z-index:2;
+    
+            }
+            .Button1:hover {background-color:transparent;color:#E1B941;border: 2px solid #4169e1} */
+
+
+.collage{
+    display: grid;
+    background-color:black;
+    justify-content: center;
+    grid-template-columns:  400px 400px 400px 400px;
+    grid-template-rows: 400px 400px;
+    gap:25px;
+    border-top: 30px solid black;
+    border-bottom: 30px solid black;
+    margin-left: 3%;
+    margin-right: 3%;
+    opacity: 100%;
+}
+
+
+/* by placing the images here as backgrounds to the cells as opposed to in the HTML, I am able to affect things such as their corners and opacity WITHOUT affecting the borders established in .collage */
+        #image1{border: 0 solid;border-radius: 10%;background-image: url("https://picsum.photos/400/?random=1");opacity: 30%;}
+        #image2{border: 0 solid;border-radius: 10%;background-image: url("https://picsum.photos/400/?random=2");opacity: 30%;}
+        #image3{border: 0 solid;border-radius: 10%;background-image: url("https://picsum.photos/400/?random=3");opacity: 30%;}
+        #image4{border: 0 solid;border-radius: 10%;background-image: url("https://picsum.photos/400/?random=4");opacity: 30%;}
+        #image5{border: 0 solid;border-radius: 10%;background-image: url("https://picsum.photos/400/?random=5");opacity: 30%;}
+        #image6{border: 0 solid;border-radius: 10%;background-image: url("https://picsum.photos/400/?random=6");opacity: 30%;}
+        #image7{border: 0 solid;border-radius: 10%;background-image: url("https://picsum.photos/400/?random=7");opacity: 30%;}
+        #image8{border: 0 solid;border-radius: 10%;background-image: url("https://picsum.photos/400/?random=8");opacity: 30%;}
+
+
+
+
+.welcome_container{
+    display:flex;  
+    margin-left: 3%;
+    margin-right: 3%; }
+
+    .searchbar > input[type=text] {
+        padding: 6px;
+        border: 0px;
+        box-shadow: 1px 2px 5px black;
+        margin: 25px 0px 50px 1155px ;
+        font-size: 17px;
+        border-radius: 0%;
+        
+        }
+        .searchbar:hover {
+            cursor: pointer;}
+    .glass{
+    padding: 0;
+    margin: 25px 0px 0px 0px;
+        }
+         
+    
+.categories_container{
+        display:flex;
+        background-color: null;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 3%;
+        margin-right: 3%;
+        flex-direction: row;
+            
+    }
+    .categories_container > .catimage{
+        border-radius: 50%;
+        width: 235px;
+        height: 160px;
+    }
+    
+    .categories_container > .break {
+        flex-basis: 100%;
+        height: 0;
+      }
+      .categories_container > .cattext{
+        background-color: null;
+        justify-content: space-between;
+        width:150px  
+        
+      }
+    .item{
+        background-color: null;
+        text-align: center;
+    }
+    .section4{
+        background-color: green;
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
