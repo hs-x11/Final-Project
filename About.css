@@ -2,11 +2,6 @@ body{
     background: color blue;
 }
 
-.nav-container
-{
-text-align: center;
-
-}
 
 .about-header{
     text-align:center;
@@ -14,7 +9,7 @@ text-align: center;
    margin-left: 15%;
 }
 
-h1 {
+h1 { 
     text-align:center;
     color:black;
 }
