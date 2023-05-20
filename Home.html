@@ -15,14 +15,14 @@
     
     <!-- nav section from Hasina-->
 <nav class="nav-container">
-    <img class="logo" src="/images/Logo.png" src="Logo">
+    <img class="logo" src="/images/Logo.png" src="Logo" onclick="history.back()"> <!-- adding this function here to act as a sort of "return to home" button like is found on most websites when you click a logo, trying to use an <a> tage or <button> tag around the image has broken the flexbox presentation, and without these pages being a live html link, i cant use window.location.href to return to it. I'm sure there would be some sort of funtion to open the local html file like in an <a> tag but google has failed me-->   
             
     <ul class="nav-links">
         <li><a class="active" href="Home.html">Home</a></li>
         <li><a href="About.html">About</a></li>
         <li><a href="/contact.html">Contact</a></li>
         <li><a href="/testimonial.html">Testimonials</a></li>
-        <li><a href="#">Pricing</a></li>
+        <li><a href="/pricing.html">Pricing</a></li>
     </ul> 
 </nav>
     <!-- end nav -->
@@ -31,9 +31,9 @@
 <!--Start Intro-->
 <div class="Welcome-text">
     <div class="line1">Welcome to AnnaMakesIt&#8482;</div>
-    <div class="line2">PlaceHolder Text Text Text Text</div>
-    <div class="line3">PlaceHolder Text Text </div>
-    <button class="Button1">Start Creating</button>
+    <div class="line2">Make your creative plans bloom</div>
+    <div class="line3">with our wide variety of printing services. </div>
+    <a href="/pricing.html"><button class="Button1">Start Creating</button></a>
 </div>
  
     <div class="collage">
@@ -59,13 +59,13 @@
     <div class="searchbar">
         <input type="text" placeholder="Search Products..."> </div>
         <div class="glass">
-            <button type="submit"><span class="material-symbols-outlined">
+            <a href="/pricing.html"><button type="submit"><span class="material-symbols-outlined">
             search <!--See about linking magnifying glass button to product page-->
-            </span></button>
+            </span></button></a>
         </div>
 </div>
 <!-- size images to 150px*150px-->
-<div class=categories_container>
+<a href="/pricing.html"><div class=categories_container>
         <img src="/Images/Isolated_white_t-shirt_front.png" alt="Black T-Shirt" class="catimage">
         <img src="/Images/cap mockup.png" alt="Ballcap with generic logos" class="catimage">
         <img src="/Images/isolated_white_tote_bag_with_shadow.png" alt="White Tote Bag" class="catimage">
@@ -92,12 +92,23 @@
 
 
     </div>
+    </a>
+    <br>
+    <br>
+    
 <!--Category Section End-->
 
-<div class="section4"><p>placeholder section</p>
-    
-
-
+<div class="salesec">
+    <br>
+    <div class="checkout">
+        Check Out Our Most Recent Sale:
+    </div>
+    <div class="sale">
+    <a href="/pricing.html">
+        <img class="mother" src="/Images/Mothersale.png" alt="Image of 50% mothers day Sale">
+    </a>
+    </div>
+</div>
 <!--Footer start -->
 <footer>
     <br> 
@@ -105,9 +116,9 @@
     <p>© Copyright AnnaMakesIt</p>
     <p class="credits">Page designed by Logan Coggins</p>
     <br>
-    <!--
+    
     <a href="https://www.freepik.com/">Images by Vectonauta</a> on Freepik
-    -->
+    
 </div>
 </footer>
 

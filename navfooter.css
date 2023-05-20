@@ -24,6 +24,7 @@ body {
     height: 70%;    
     margin-right: auto;
     padding-left: 10px;
+    cursor:pointer
 }
 
 .nav-links {

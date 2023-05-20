@@ -18,7 +18,7 @@ body {background-color:white;
 }
     .line1{
         position:absolute;
-        top:45%;
+        top:47%;
         left:50%;
         transform: translate(-50%, -50%);
         color: white;
@@ -27,11 +27,11 @@ body {background-color:white;
 
     .line2{
         position: absolute;
-        top:52%;
+        top:54%;
         left:50%;
         transform: translate(-50%, -50%);
         color: white;
-        font-size: 48px;
+        font-size: 40px;
         z-index:2; }
     
     .line3{
@@ -40,14 +40,14 @@ body {background-color:white;
             left:50%;
             transform: translate(-50%, -50%);
             color: white;
-            font-size: 48px;
+            font-size: 40px;
             z-index:2;}
 
     .Button1{
             background-color: #4169e1;
             border: 2px solid #4169e1;
             color: #E1B941;
-            padding: 15px 32px;
+            padding: 15px 25px;
             text-align: center;
             display: inline-block;
             font-size: 22px;
@@ -59,6 +59,7 @@ body {background-color:white;
             left:50%;
             transform: translate(-50%, -50%);
             z-index:2;
+            cursor:pointer;
             
                     }
     .Button1:hover {background-color:transparent;color:#E1B941; border: 2px solid #E1B941}
@@ -131,12 +132,13 @@ body {background-color:white;
     .glass{
     padding: 0;
     margin: 25px 0px 0px 0px;
+    cursor: pointer;
         }
          
     
 .categories_container{
         display:flex;
-        background-color: null;
+        background-color: none;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -156,20 +158,56 @@ body {background-color:white;
         height: 0;
       }
       .categories_container > .cattext{
-        background-color: null;
+        background-color: none;
         justify-content: space-between;
-        width:150px  
-        
+        width:150px;    
       }
     .item{
-        background-color: null;
-        text-align: center;
+        background-color: none;
+        text-align: center;   
     }
-    .section4{
-        background-color: green;
-        width: 100%;
+    
+a{text-decoration: none;}
+a:visited {text-decoration: none; color: black;}
+
+.salesec{
+        display:grid;
+        background-color: #b4bedc;
+        margin-left: 3%;
+        margin-right: 3%;
+        grid-template-columns: 5% auto auto auto;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        
     }
 
+    .checkout{
+        display: flex;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        background-color:#b4bedc;
+        font-size: 60px;
+        width: 500px;
+        text-align: center;
+        align-items: center;
+        font-weight: bold;
+        color: black;
+        
+    }
+
+    .sale{
+        
+        grid-column-start: 4;
+        grid-column-end:4;
+        text-align: center;
+        background-color: #b4bedc;
+        cursor:pointer;
+    }
+
+        .mother{
+        height:Auto;
+        width: 90%;
+        }
 
 
 
